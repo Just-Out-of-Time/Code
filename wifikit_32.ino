@@ -4,19 +4,15 @@
 #endif
 #include <ESP_Mail_Client.h>
 
-/* temperatureReadingDevice@gmail.com
- * WSU2021!
- * 
- */
 
 #define SMTP_HOST "smtp.gmail.com"
 #define SMTP_PORT 587
 #define AUTHOR_EMAIL "temperaturereadingdevice@gmail.com"
-#define AUTHOR_PASSWORD "WSU2021!"
-#define RECIPIENT_EMAIL "6204417334@vtext.com"
+#define AUTHOR_PASSWORD ""
+#define RECIPIENT_EMAIL "@vtext.com"
 
-const char ssid[]     = "_&$";
-const char password[] = "P0mk7AsD45Z*";
+const char ssid[]     = "";
+const char password[] = "";
 
 SMTPSession smtp;
 
